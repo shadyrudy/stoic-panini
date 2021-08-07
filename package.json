@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "name": "netlify-drop-demo-site-master",
+  "description": "Silly demo site to be used for [Netlify Drop](https://app.netlify.com/drop).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "cssnano": "^5.0.7",
+    "postcss": "^8.3.6"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadyrudy/stoic-panini.git"
+  },
+  "keywords": [
+    "Netlify",
+    "test"
+  ],
+  "author": "Rudy Rodarte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadyrudy/stoic-panini/issues"
+  },
+  "homepage": "https://github.com/shadyrudy/stoic-panini#readme"
+}
