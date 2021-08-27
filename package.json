@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "parcel": "^2.0.0-rc.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -8,13 +9,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
     "cssnano": "^5.0.7",
     "postcss": "^8.3.6"
   },
   "scripts": {
     "test": "jest",
     "start": "parcel src/index.html",
-    "build": "parcel build --no-minify src/index.html"
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
