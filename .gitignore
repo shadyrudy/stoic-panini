@@ -4,3 +4,4 @@
 /.cache
 /.parcel-cache
 /dist
+dist/index.html
